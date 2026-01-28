@@ -1,4 +1,4 @@
-﻿# DPO LoRA Project
+# DPO LoRA Project
 
 A compact, resume-ready implementation of Direct Preference Optimization (DPO) using LoRA adapters on causal LLMs.
 It includes dataset loading, a clean training loop, and an LLM-as-judge evaluation script.
