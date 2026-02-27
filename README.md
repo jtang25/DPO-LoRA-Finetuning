@@ -1,9 +1,6 @@
 # DPO LoRA Project
 
-A compact, resume-ready implementation of Direct Preference Optimization (DPO) using LoRA adapters on causal LLMs.
-It includes dataset loading, a clean training loop, and an LLM-as-judge evaluation script.
-
-## Highlights
+## Overview
 - LoRA injection and parameter-efficient fine-tuning
 - DPO loss with preference accuracy metrics
 - UltraFeedback dataset pipeline
@@ -29,18 +26,11 @@ It includes dataset loading, a clean training loop, and an LLM-as-judge evaluati
 `-- requirements.txt
 ```
 
-Note: legacy logs/weights from earlier runs live under `outputs/logs/` and `outputs/weights/`.
-
 ## Setup
 ```bash
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-```
-
-Or editable install:
-```bash
-pip install -e .
 ```
 
 ## Train
